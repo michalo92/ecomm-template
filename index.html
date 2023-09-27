@@ -5,23 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Single Item</title>
+    <script defer src="script.js"></script>
   </head>
   <body>
     <header class="header">
       <nav class="navigation">
         <img class="image-logo" src="" alt="logo" />
-        <button class="btn-nav">
-          <span class="btn-nav__switch">Shop</span>
-        </button>
-        <button class="btn-nav">
-          <span class="btn-nav__switch">About us</span>
-        </button>
-        <button class="btn-nav">
-          <span class="btn-nav__switch">Contact</span>
-        </button>
-        <button class="btn-nav">
-          <span class="btn-nav__switch">Media</span>
-        </button>
+        <div class="navigation-buttons">
+          <button class="btn-nav" id="btn-shop">Shop</button>
+          <button class="btn-nav" id="btn-about">About us</button>
+          <button class="btn-nav" id="btn-contact">Contact</button>
+          <button class="btn-nav" id="btn-media">Media</button>
+        </div>
       </nav>
     </header>
     <section class="items-container">
